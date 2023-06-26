@@ -6,17 +6,12 @@
 </template>
 
 <style scoped>
-  main {
-    width: calc(100vw - 200px);
-    transform: translateX(200px);
-    height: 100vh;
-    overflow: hidden;
-  }
   img {
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    margin: 4rem auto;
+    margin: auto;
+    margin-bottom: 4rem;
     display: block;
   }
 

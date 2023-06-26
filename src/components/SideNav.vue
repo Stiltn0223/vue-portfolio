@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <nav class="container">
+  <nav class="container" id="sidenav">
     <div class="align-top">
       <ul>
         <li id="home"><RouterLink to="/">loganstiltner.dev</RouterLink></li>

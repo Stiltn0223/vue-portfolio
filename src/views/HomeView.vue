@@ -19,10 +19,6 @@
 <style scoped>
   main {
     /* Adjust for sidebar size */
-    width: calc(100vw - var(--sidebar-width));
-    transform: translateX(var(--sidebar-width));
-    height: 100vh;
-    overflow: hidden;
     font-size: 1.2em;
     color: #fff;
   }
@@ -32,11 +28,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
   }
 
   h1, h2 {
     font-size: 3.5rem;
+    text-align: center;
   }
   
   h2 {
@@ -47,6 +43,7 @@
     font-size: 1.4rem;
     text-align: center;
     font-family: Montserrat, sans-serif;
+    margin: 2rem;
   }
 
 .align-bottom {

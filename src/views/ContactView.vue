@@ -23,20 +23,12 @@
 </template>
 
 <style scoped>
-main {
-    width: calc(100vw - 200px);
-    transform: translateX(200px);
-    height: 100vh;
-    overflow: hidden;
-}
-
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #fff;
-    margin-top: 4rem;
 }
 
 .container>* {
